@@ -7,4 +7,4 @@ Bu dizinde Ahenk arka yüz geliştiricileri ve Ahenk eklenti geliştiricileri i�
 ### Index
 | Açıklama  | Bağlantı | 
 | --------  | -------- |
-| Kaynaklar | [Resources.md](Resources.md) |
+| Tüm Kaynaklar ve Harici Bağlantılar | [resources.md](resources.md) |
