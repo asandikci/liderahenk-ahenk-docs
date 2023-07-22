@@ -3,15 +3,15 @@
 ### Index
 
 - [General](#general)
-- [Daemon / Linux](#daemon--linux)
+- [Daemon / Linux](#daemon-linux)
 - [XMPP](#xmpp)
   - [XMPP Info](#xmpp-info)
-  - [Security / Privacy / Encryption](#security--privacy--encryption)
-  - [XMPP Servers&Clients written in Go](#xmpp-serversclients-written-in-go)
+  - [Security / Privacy / Encryption](#security-privacy-encryption)
+  - [XMPP Servers&Clients written in Go](#xmpp-servers-clients-written-in-go)
 - [GO](#go)
   - [Useful Go Libraries](#useful-go-labraries)
-  - [Project Structure Resources](https://git.aliberksandikci.com.tr/asandikci/go-organization)
-  - [Go Exercise Resources](https://git.aliberksandikci.com.tr/asandikci/go-exercise)
+  - [Project Structure Resources](https://git.aliberksandikci.com.tr/asandikci/go-organization) (External Repo)
+  - [Go Exercise Resources](https://git.aliberksandikci.com.tr/asandikci/go-exercise)(External Repo)
 - [Agent Market Search](#agent-market-search)
 
 <br>
