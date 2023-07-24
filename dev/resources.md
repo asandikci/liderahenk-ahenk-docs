@@ -67,7 +67,8 @@
 
 # Go
 - https://github.com/golang/go | Go Source Code
-- https://google.github.io/styleguide/go/ | Google, Go Sytle Guide
+- https://google.github.io/styleguide/go/ | Google, Go Style Guide
+- https://go.dev/doc/effective_go | Official Effective Go (old doc)
 ### External Git Repos
 - [asandikci/go-learning](https://git.aliberksandikci.com.tr/asandikci/go-learning) | Go Learning Resources
 - [asandikci/go-organization](https://git.aliberksandikci.com.tr/asandikci/go-organization) | Project Structure Resources
