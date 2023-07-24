@@ -9,9 +9,8 @@
   - [Security / Privacy / Encryption](#security-privacy-encryption)
   - [XMPP Servers&Clients written in Go](#xmpp-servers-clients-written-in-go)
 - [GO](#go)
+  - [External Git Repos](#external-git-repos)
   - [Useful Go Libraries](#useful-go-labraries)
-  - [Project Structure Resources](https://git.aliberksandikci.com.tr/asandikci/go-organization) (External Repo)
-  - [Go Exercise Resources](https://git.aliberksandikci.com.tr/asandikci/go-exercise)(External Repo)
 - [Agent Market Search](#agent-market-search)
 
 <br>
@@ -67,15 +66,15 @@
 <br>
 
 # Go
-- https://git.aliberksandikci.com.tr/asandikci/go-learning | Go Learning Resources
 - https://github.com/golang/go | Go Source Code
+- https://google.github.io/styleguide/go/ | Google, Go Sytle Guide
+### External Git Repos
+- [asandikci/go-learning](https://git.aliberksandikci.com.tr/asandikci/go-learning) | Go Learning Resources
+- [asandikci/go-organization](https://git.aliberksandikci.com.tr/asandikci/go-organization) | Project Structure Resources
+- [asandikci/go-exercise](https://git.aliberksandikci.com.tr/asandikci/go-exercise) | Go Exercise Resources and Solutions
 ### Useful GO Labraries
 - https://github.com/kirsle/configdir | Get User Config and Cache Directories
 - https://github.com/shibukawa/configdir | Get User Config and Cache Directories
-
-### [Project Structure Resources](https://git.aliberksandikci.com.tr/asandikci/go-organization)
-
-### [Go Exercise Resources](https://git.aliberksandikci.com.tr/asandikci/go-exercise)
 
 <br>
 
@@ -84,4 +83,7 @@
 <br>
 
 # Agent Market Search
-- WIP
+- [grafana/agent](https://github.com/grafana/agent) #golang
+- [buildkite/agent](https://github.com/buildkite/agent) #golang
+- [open-falcon-archive/agent](https://github.com/open-falcon-archive/agent) #golang
+- [jenssegers/agent](https://github.com/jenssegers/agent) #php
