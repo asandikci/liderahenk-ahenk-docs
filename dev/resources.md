@@ -36,6 +36,8 @@
 # Daemon / Linux
 - https://github.com/sevlyar/go-daemon | Ready-to-use Go Daemon
 - https://www.makeuseof.com/create-daemons-on-linux/ | Step-by-Step Daemon Guideline
+- [stackoverflow/creating-a-daemon-in-linux](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux)
+- [unix.stackexchange/proper-way-to-run-shell-script-as-a-daemon](https://unix.stackexchange.com/questions/426862/proper-way-to-run-shell-script-as-a-daemon)
 - [stackoverflow/how-to-start-a-go-program-as-a-daemon-in-ubuntu](https://stackoverflow.com/questions/10067295/how-to-start-a-go-program-as-a-daemon-in-ubuntu)
 - [stackoverflow/how-to-create-a-daemon-process-in-golang](https://stackoverflow.com/questions/23736046/how-to-create-a-daemon-process-in-golang)
 
