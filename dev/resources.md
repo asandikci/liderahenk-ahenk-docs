@@ -3,7 +3,10 @@
 ### Index
 
 - [General](#general)
-- [Daemon / Linux](#daemon-linux)
+- [Linux Daemon](#linux-daemon)
+  - [New Style Daemons](#new-style-daemons)
+  - [Useful Stackexchange pages](#useful-stackexchange-pages)
+  - [Daemon Examples in Other Projects](#daemon-examples-in-other-projects)
 - [XMPP](#xmpp)
   - [XMPP Info](#xmpp-info)
   - [Security / Privacy / Encryption](#security-privacy-encryption)
@@ -36,10 +39,28 @@
 # Daemon / Linux
 - https://github.com/sevlyar/go-daemon | Ready-to-use Go Daemon
 - https://www.makeuseof.com/create-daemons-on-linux/ | Step-by-Step Daemon Guideline
+- [Wikipedia/init](https://en.wikipedia.org/wiki/Init)
+- [FreeDesktop.org/man/systemd/daemon](https://www.freedesktop.org/software/systemd/man/daemon.html)
+- [FreeDesktop.org/man/systemd/systemd](https://www.freedesktop.org/software/systemd/man/systemd.html)
+### New Style Daemons
+- [FreeDesktop.org/man/systemd/daemon#new-style](https://www.freedesktop.org/software/systemd/man/daemon.html#New-Style%20Daemons)
+### Useful Stackexchange pages
 - [stackoverflow/creating-a-daemon-in-linux](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux)
 - [unix.stackexchange/proper-way-to-run-shell-script-as-a-daemon](https://unix.stackexchange.com/questions/426862/proper-way-to-run-shell-script-as-a-daemon)
 - [stackoverflow/how-to-start-a-go-program-as-a-daemon-in-ubuntu](https://stackoverflow.com/questions/10067295/how-to-start-a-go-program-as-a-daemon-in-ubuntu)
 - [stackoverflow/how-to-create-a-daemon-process-in-golang](https://stackoverflow.com/questions/23736046/how-to-create-a-daemon-process-in-golang)
+- [unix.stackexchange/creating-a-demon-using-systemd](https://unix.stackexchange.com/questions/377483/what-are-ways-of-creating-a-daemon-using-systemd#377498)
+### Old resources or references
+- https://web.archive.org/web/20230630212904/http://www.enderunix.org/docs/eng/daemon.php (2001)
+
+### Daemon Examples in Other Projects
+- SSH
+  - [openssh/sshd.c](https://github.com/openssh/openssh-portable/blob/master/sshd.c)
+  - [openssh/daemon.c](https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/daemon.c#L52)
+- Ahenk
+  - [ahenk/ahenkd.py](https://github.com/Pardus-LiderAhenk/ahenk/blob/master/src/ahenkd.py)
+  - [ahenk/base_daemon.py](https://github.com/Pardus-LiderAhenk/ahenk/blob/master/src/base/deamon/base_daemon.py)
+
 
 <br>
 
@@ -78,6 +99,7 @@
 ### Useful GO Labraries
 - https://github.com/kirsle/configdir | Get User Config and Cache Directories
 - https://github.com/shibukawa/configdir | Get User Config and Cache Directories
+- https://github.com/sevlyar/go-daemon | Go Daemon
 
 <br>
 
