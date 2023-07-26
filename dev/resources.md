@@ -36,7 +36,7 @@
 
 <br>
 
-# Daemon / Linux
+# Linux Daemon
 - https://github.com/sevlyar/go-daemon | Ready-to-use Go Daemon
 - https://www.makeuseof.com/create-daemons-on-linux/ | Step-by-Step Daemon Guideline
 - [Wikipedia/init](https://en.wikipedia.org/wiki/Init)
