@@ -53,6 +53,7 @@
 ### Old resources or references
 - https://web.archive.org/web/20230630212904/http://www.enderunix.org/docs/eng/daemon.php (2001)
 - https://ww2.cs.fsu.edu/~bogdanov/private/2013-LIS4488/agenda/week04/daemons-n-services.pdf (2013) | Overview - Daemons and Services
+- https://flylib.com/books/en/1.393.1.20/1/ (2011) | BSD Sytle vs SysV daemon
 
 ### Daemon Examples in Other Projects
 - SSH
