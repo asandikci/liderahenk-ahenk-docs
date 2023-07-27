@@ -52,6 +52,7 @@
 - [unix.stackexchange/creating-a-demon-using-systemd](https://unix.stackexchange.com/questions/377483/what-are-ways-of-creating-a-daemon-using-systemd#377498)
 ### Old resources or references
 - https://web.archive.org/web/20230630212904/http://www.enderunix.org/docs/eng/daemon.php (2001)
+- https://ww2.cs.fsu.edu/~bogdanov/private/2013-LIS4488/agenda/week04/daemons-n-services.pdf (2013) | Overview - Daemons and Services
 
 ### Daemon Examples in Other Projects
 - SSH
