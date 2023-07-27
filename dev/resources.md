@@ -42,6 +42,8 @@
 - [Wikipedia/init](https://en.wikipedia.org/wiki/Init)
 - [FreeDesktop.org/man/systemd/daemon](https://www.freedesktop.org/software/systemd/man/daemon.html)
 - [FreeDesktop.org/man/systemd/systemd](https://www.freedesktop.org/software/systemd/man/systemd.html)
+- [ArchWiki/systemd](https://wiki.archlinux.org/title/Systemd)
+- [ArchWiki/SysVinit](https://wiki.archlinux.org/title/SysVinit)
 ### New Style Daemons
 - [FreeDesktop.org/man/systemd/daemon#new-style](https://www.freedesktop.org/software/systemd/man/daemon.html#New-Style%20Daemons)
 ### Useful Stackexchange pages
@@ -50,6 +52,7 @@
 - [stackoverflow/how-to-start-a-go-program-as-a-daemon-in-ubuntu](https://stackoverflow.com/questions/10067295/how-to-start-a-go-program-as-a-daemon-in-ubuntu)
 - [stackoverflow/how-to-create-a-daemon-process-in-golang](https://stackoverflow.com/questions/23736046/how-to-create-a-daemon-process-in-golang)
 - [unix.stackexchange/creating-a-demon-using-systemd](https://unix.stackexchange.com/questions/377483/what-are-ways-of-creating-a-daemon-using-systemd#377498)
+- [unix.stackexchange/sysv-upstart-systemd](https://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem)
 ### Old resources or references
 - https://web.archive.org/web/20230630212904/http://www.enderunix.org/docs/eng/daemon.php (2001)
 - https://ww2.cs.fsu.edu/~bogdanov/private/2013-LIS4488/agenda/week04/daemons-n-services.pdf (2013) | Overview - Daemons and Services
