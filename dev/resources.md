@@ -54,7 +54,7 @@
 - https://web.archive.org/web/20230630212904/http://www.enderunix.org/docs/eng/daemon.php (2001)
 - https://ww2.cs.fsu.edu/~bogdanov/private/2013-LIS4488/agenda/week04/daemons-n-services.pdf (2013) | Overview - Daemons and Services
 - https://flylib.com/books/en/1.393.1.20/1/ (2011) | BSD Sytle vs SysV daemon
-
+- https://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/tocsysinit.html (2012) | LSB System Init Scripts
 ### Daemon Examples in Other Projects
 - SSH
   - [openssh/sshd.c](https://github.com/openssh/openssh-portable/blob/master/sshd.c)
