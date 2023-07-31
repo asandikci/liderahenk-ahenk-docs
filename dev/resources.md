@@ -58,6 +58,12 @@
 - https://ww2.cs.fsu.edu/~bogdanov/private/2013-LIS4488/agenda/week04/daemons-n-services.pdf (2013) | Overview - Daemons and Services
 - https://flylib.com/books/en/1.393.1.20/1/ (2011) | BSD Sytle vs SysV daemon
 - https://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/tocsysinit.html | LSB System Init Scripts
+
+### Signal Handling / Restart
+- https://www.developer.com/languages/os-signals-go/
+- https://github.com/kylelemons/daemon/blob/master/restart.go
+- https://golang.howtos.io/managing-os-signals-in-go/
+- https://golang.howtos.io/working-with-system-signals-in-go-using-the-os-signal-package/
 ### Daemon Examples in Other Projects
 - SSH
   - [openssh/sshd.c](https://github.com/openssh/openssh-portable/blob/master/sshd.c)
