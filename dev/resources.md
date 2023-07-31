@@ -41,11 +41,13 @@
 - https://www.makeuseof.com/create-daemons-on-linux/ | Step-by-Step Daemon Guideline
 - [Wikipedia/init](https://en.wikipedia.org/wiki/Init)
 - [FreeDesktop.org/man/systemd/daemon](https://www.freedesktop.org/software/systemd/man/daemon.html)
-- [FreeDesktop.org/man/systemd/systemd](https://www.freedesktop.org/software/systemd/man/systemd.html)
-- [ArchWiki/systemd](https://wiki.archlinux.org/title/Systemd)
 - [ArchWiki/SysVinit](https://wiki.archlinux.org/title/SysVinit)
-### New Style Daemons
-- [FreeDesktop.org/man/systemd/daemon#new-style](https://www.freedesktop.org/software/systemd/man/daemon.html#New-Style%20Daemons)
+
+### New Style Daemons / Systemd
+- [superuser/systemd-forking-vs-simple](https://superuser.com/questions/1274901/systemd-forking-vs-simple)
+- [ArchWiki/systemd](https://wiki.archlinux.org/title/Systemd)
+- [FreeDesktop.org/man/systemd/systemd](https://www.freedesktop.org/software/systemd/man/systemd.html)
+  - [#new-style](https://www.freedesktop.org/software/systemd/man/daemon.html#New-Style%20Daemons)
 ### Useful Stackexchange pages
 - [stackoverflow/creating-a-daemon-in-linux](https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux)
 - [unix.stackexchange/proper-way-to-run-shell-script-as-a-daemon](https://unix.stackexchange.com/questions/426862/proper-way-to-run-shell-script-as-a-daemon)
