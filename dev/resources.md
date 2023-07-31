@@ -61,6 +61,7 @@
 
 ### Signal Handling / Restart
 - https://www.developer.com/languages/os-signals-go/
+- https://stackoverflow.com/questions/68201595/how-to-restart-itself-in-go-daemon-process
 - https://github.com/kylelemons/daemon/blob/master/restart.go
 - https://golang.howtos.io/managing-os-signals-in-go/
 - https://golang.howtos.io/working-with-system-signals-in-go-using-the-os-signal-package/
