@@ -8,3 +8,4 @@ Bu dizinde Ahenk arka yüz geliştiricileri ve Ahenk eklenti geliştiricileri i�
 | Açıklama  | Bağlantı | 
 | --------  | -------- |
 | Tüm Kaynaklar ve Harici Bağlantılar | [resources.md](resources.md) |
+| Geliştirici Ortamı ile ilgili Öneriler ve Notlar | [environment.md](environment.md) |
