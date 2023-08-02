@@ -6,6 +6,7 @@
 - [Linux Daemon](#linux-daemon)
   - [New Style Daemons](#new-style-daemons)
   - [Useful Stackexchange pages](#useful-stackexchange-pages)
+  - [Signal Handling & Restart](#signal-handling-restart)
   - [Daemon Examples in Other Projects](#daemon-examples-in-other-projects)
 - [XMPP](#xmpp)
   - [XMPP Info](#xmpp-info)
@@ -62,6 +63,7 @@
 - https://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/tocsysinit.html | LSB System Init Scripts
 
 ### Signal Handling / Restart
+- https://www.man7.org/linux/man-pages/man7/signal.7.html | Signals Manual Page
 - https://www.developer.com/languages/os-signals-go/
 - https://stackoverflow.com/questions/68201595/how-to-restart-itself-in-go-daemon-process
 - https://github.com/kylelemons/daemon/blob/master/restart.go
