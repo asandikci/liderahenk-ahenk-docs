@@ -6,13 +6,12 @@ Geliştirme sürecinin sürekliliği ve bütünlüğü için:
   - VSCodium
 - Önerilen VSCode/Codium Eklentileri:
   - Comment Anchors (`exodiusstudios.comment-anchors`)
-    > İlgili işaretleri settings.json dosyasından ekleyiniz
     - `TODO` ▶ Future Tasks
     - `NEXT` ▶ High Priority Tasks
       - settings.json dosyasına ekleyiniz (default, #12449f, file)
-    - `FIXME` ▶ Bug or error
     - `FILLME` ▶ Reusable code block
       - settings.json dosyasına ekleyiniz (default, #A8C993, file)
+    - `FIXME` ▶ Bug or error
     - `NOTE` ▶ Extra note
     - `REVIEW` ▶ This code block needs a review
     - `LINK` ▶ Link to documentation/forum/information
