@@ -16,9 +16,9 @@ Geliştirme sürecinin sürekliliği ve bütünlüğü için:
     - `REVIEW` ▶ This code block needs a review
     - `LINK` ▶ Link to documentation/forum/information
   - Go (`golang.go`)
-- Önerilen Sanal Makine Düzeni:
+- Önerilen Makine Düzeni:
   - 1 adet Liderahenk sunucusu (Sanal)
-  - 1 adet Pardus + [ahenk](https://github.com/pardus-liderahenk/ahenk) (python) (Sanal, `opsiyonel`)
-  - 1 adet Pardus + ahenk-go (Sanal/Fiziksel)
+  - 1 adet Pardus + ahenk-go (Sanal/Fiziksel/Docker)
   - 1 adet Windows + ahenk-go (Sanal/Fiziksel)
-  - 1 adet GNU/Linux + ahenk-go (Fiziksel, `opsiyonel`)
+  - 1 adet Debian + ahenk-go (Docker, .deb build için)
+  - 1 adet Pardus + [ahenk](https://github.com/pardus-liderahenk/ahenk) (python) (Sanal, `opsiyonel`)
