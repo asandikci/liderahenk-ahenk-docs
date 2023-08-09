@@ -3,11 +3,13 @@
 ### Index
 
 - [General](#general)
-- [Linux Daemon](#linux-daemon)
-  - [New Style Daemons](#new-style-daemons)
-  - [Useful Stackexchange pages](#useful-stackexchange-pages)
-  - [Signal Handling & Restart](#signal-handling-restart)
-  - [Daemon Examples in Other Projects](#daemon-examples-in-other-projects)
+- [Linux](#linux)
+  - [Daemons](#daemons)
+    - [New Style Daemons](#new-style-daemons)
+    - [Useful Stackexchange pages](#useful-stackexchange-pages)
+    - [Signal Handling & Restart](#signal-handling-restart)
+    - [Daemon Examples in Other Projects](#daemon-examples-in-other-projects)
+  - [deb Packaging](#deb-packaging)
 - [XMPP](#xmpp)
   - [XMPP Info](#xmpp-info)
   - [Security / Privacy / Encryption](#security-privacy-encryption)
@@ -37,7 +39,10 @@
 
 <br>
 
-# Linux Daemon
+# Linux
+
+## Daemons
+
 - https://github.com/sevlyar/go-daemon | Ready-to-use Go Daemon
 - https://www.makeuseof.com/create-daemons-on-linux/ | Step-by-Step Daemon Guideline
 - [Wikipedia/init](https://en.wikipedia.org/wiki/Init)
@@ -77,6 +82,10 @@
   - [ahenk/ahenkd.py](https://github.com/Pardus-LiderAhenk/ahenk/blob/master/src/ahenkd.py)
   - [ahenk/base_daemon.py](https://github.com/Pardus-LiderAhenk/ahenk/blob/master/src/base/deamon/base_daemon.py)
 
+## deb Packaging
+- https://go-team.pages.debian.net/packaging.html
+- https://wiki.debian.org/SimplePackagingTutorial
+- https://people.debian.org/~stapelberg/2015/07/27/dh-make-golang.html
 
 <br>
 
