@@ -17,6 +17,7 @@
 - [GO](#go)
   - [External Git Repos](#external-git-repos)
   - [Useful Go Libraries](#useful-go-labraries)
+  - [Plugin Logic](#plugin-logic)
   - [Missing Features](#missing-features-in-golang)
 - [Agent Market Search](#agent-market-search)
 
@@ -127,6 +128,13 @@
 - https://github.com/shibukawa/configdir | Get User Config and Cache Directories
 - https://github.com/sevlyar/go-daemon | Go Daemon
 - **Look for more:** [github/list/go](https://github.com/stars/asandikci/lists/go-language)
+
+### Plugin logic
+- https://pkg.go.dev/plugin
+- https://github.com/vladimirvivien/go-plugin-example
+- https://eli.thegreenplace.net/2021/plugins-in-go/
+- https://eli.thegreenplace.net/2023/rpc-based-plugins-in-go/
+- https://appliedgo.net/plugins/
 
 ### Missing Features in Golang
 - https://github.com/golang/go/issues/20461 | unload plugins
