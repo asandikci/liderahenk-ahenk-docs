@@ -133,6 +133,7 @@
 - https://pkg.go.dev/plugin
 - https://github.com/vladimirvivien/go-plugin-example
 - https://eli.thegreenplace.net/2021/plugins-in-go/
+- https://www.sobyte.net/post/2021-12/golang-plugin/
 - https://eli.thegreenplace.net/2023/rpc-based-plugins-in-go/
 - https://appliedgo.net/plugins/
 
