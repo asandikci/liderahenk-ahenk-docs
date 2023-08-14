@@ -17,6 +17,7 @@
 - [GO](#go)
   - [External Git Repos](#external-git-repos)
   - [Useful Go Libraries](#useful-go-labraries)
+  - [Missing Features](#missing-features-in-golang)
 - [Agent Market Search](#agent-market-search)
 
 <br>
@@ -126,6 +127,10 @@
 - https://github.com/shibukawa/configdir | Get User Config and Cache Directories
 - https://github.com/sevlyar/go-daemon | Go Daemon
 - **Look for more:** [github/list/go](https://github.com/stars/asandikci/lists/go-language)
+
+### Missing Features in Golang
+- https://github.com/golang/go/issues/20461 | unload plugins
+- https://github.com/golang/go/issues/19282 | Windows plugin support
 
 <br>
 
