@@ -31,9 +31,11 @@
 
 
 # General
-- https://liderahenk.
-- https://docs.liderahenk.
+- https://liderahenk.org
+- https://docs.liderahenk.org
 - https://gonullu.pardus.org.tr/merkezi-yonetim-sistemi/
+- https://gonullu.pardus.org.tr/liderahenk-merkezi-yonetim-sistemi/
+- https://github.com/Pardus-LiderAhenk/lider-ahenk-docs/tree/docs-1.0
 
 <br>
 
