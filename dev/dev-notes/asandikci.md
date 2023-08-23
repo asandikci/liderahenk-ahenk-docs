@@ -59,12 +59,17 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
 - Go daemon üzerinde çalışmaya devam edildi
 - ahenk-go reposu açılıp artık bu repo üzerinden çalışılmaya başlandı
 
-#### Beşinci Hafta (7-13 Ağustost 2023)
+#### Beşinci Hafta (7-13 Ağustos 2023)
 - Basit docker komutları öğrenildi ve docker ile çalışılmaya başlandı
 - deb dosyası paketleme ile ilgili uğraşıldı, araştırıldı. dh-make-golang paketi kullanılarak docker üstünde .deb dosyası oluşturuldu
 
-#### Altıncı Hafta (14-20 Ağustost 2023)
+#### Altıncı Hafta (14-20 Ağustos 2023)
 - Bu dizini ve dosyayı oluşturdum
+- Go Plugin yapısını araştırdım
+- Memlekete gittiğimiz için çalışmalara biraz ara vermek zorunda kaldım
+
+#### Yedinci Hafta (21-27 Ağustos 2023)
+- Makefile yapısını anladım ve daha kolay kurulum/build/silme işlemleri için oluşturdum
 - Go Plugin yapısını araştırdım ve implemente etmeye başladım (TODO)
 - Resource Usage plugin'ini kodladım (TODO)
 
