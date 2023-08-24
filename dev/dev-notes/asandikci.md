@@ -16,7 +16,7 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
   - Go dilini
     - Basit Syntax
     - Modul mantığı ve proje yapısı
-    - Plugin mantığı (TODO)
+    - Plugin mantığı
   - Linux Daemon 
     - Daemon mantığı (forking)
     - Iki farklı dilde daemon implementationu
@@ -27,9 +27,10 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
     - dockerfile
   - Deb packaging
     - Deb dosyasının temel bileşenleri
-    - Deb dosyası oluşturmak için kullanılan komutlar (dh-make, dh-make-golang, gbp)
+    - Deb dosyası oluşturmak için kullanılan komutlar (dh-make, dh-make-golang, gbp, dpkg-buildpackage)
     - Makefile
-  - Bash Script
+  - Diğer
+    - Süreç içerisinde sürekli git repoları ile uğraştığım için git versiyon kontrol yapısında kendimi geliştirdim
     - Aynı zamanda bazı processleri otomatikleştirmek için hazırladığım bash scriptleri sayesinde bash dilinde de gelişme katettim.
 
 ---
