@@ -3,4 +3,4 @@ Bu dizin ahenk-go üzerinde veya benzer projeler üzerinde çalışacak yeni gel
 
 | Geliştiriciler | Görevi | Görev Süresi | Notlar | 
 | -------------- | ------ | ------------ | ------ |
-| Aliberk Sandıkçı | Stajyer | 6 Temmuz - 30 Ağustos | [asandikci.md](asandikci.md) | 
+| Aliberk Sandıkçı | Stajyer | 6 Temmuz - 31 Ağustos | [asandikci.md](asandikci.md) | 

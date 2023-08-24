@@ -28,7 +28,7 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
   - Deb packaging
     - Deb dosyasının temel bileşenleri
     - Deb dosyası oluşturmak için kullanılan komutlar (dh-make, dh-make-golang, gbp)
-    - Makefile (TODO)
+    - Makefile
   - Bash Script
     - Aynı zamanda bazı processleri otomatikleştirmek için hazırladığım bash scriptleri sayesinde bash dilinde de gelişme katettim.
 
@@ -70,7 +70,8 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
 
 #### Yedinci Hafta (21-27 Ağustos 2023)
 - Makefile yapısını anladım ve daha kolay kurulum/build/silme işlemleri için oluşturdum
-- Go Plugin yapısını araştırdım ve implemente etmeye başladım (TODO)
-- Resource Usage plugin'ini kodladım (TODO)
+- Dökümantasyonları güncelledim
+- Go Plugin yapısını implemente etmeye başladım
+- Resource Usage plugin'ini kodladım
 
 

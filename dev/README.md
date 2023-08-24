@@ -5,7 +5,11 @@ Bu dizinde Ahenk arka yüz geliştiricileri ve Ahenk eklenti geliştiricileri i�
 <!-- TODO Geliştirici Dokümantasyonuna aynı zamanda https://docs.liderahenk.org/ahenk/dev adersinden de ulaşabilirsiniz. -->
 
 ### Index
-| Açıklama  | Bağlantı | 
-| --------  | -------- |
-| Tüm Kaynaklar ve Harici Bağlantılar | [resources.md](resources.md) |
-| Geliştirici Ortamı ile ilgili Öneriler ve Notlar | [environment.md](environment.md) |
+- [Tüm Kaynaklar ve Harici Bağlantılar](resources.md)
+- [Geliştirici Ortamının Kurulması ve Öneriler](environment.md)
+- [Changelog](changelog.md)
+  - *[basitleştirilmiş admin versiyonu](../admin/changelog.md)*
+- [Çalışma Mekaniği ve Süreçleri](howto.md)
+  - *[basitleştirilmiş admin versiyonu](../admin/howto.md)*
+- [Geliştirici Günlükleri (gayriresmi)](./dev-notes/)
+- [Ahenk Python Dökümantasyonu](https://github.com/Pardus-LiderAhenk/lider-ahenk-docs/tree/docs-1.0/docs/developers/ahenk)
