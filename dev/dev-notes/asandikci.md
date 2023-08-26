@@ -17,6 +17,7 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
     - Basit Syntax
     - Modul mantığı ve proje yapısı
     - Plugin mantığı
+    - Concurrency/goroutine mantığ˙í
   - Linux Daemon 
     - Daemon mantığı (forking)
     - Iki farklı dilde daemon implementationu
@@ -74,5 +75,6 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
 - Dökümantasyonları güncelledim
 - Go Plugin yapısını implemente etmeye başladım
 - Resource Usage plugin'ini kodladım
+- Kodu concurrent bir şekilde tekrar düzenledim, goroutine kullanmaya başladım
 
 

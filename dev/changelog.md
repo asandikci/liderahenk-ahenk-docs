@@ -7,6 +7,7 @@ newest from bottom to top
 ### Geliştirme Sürümü 0.0.1 (Dev-0.0.1-1)
 
 - plugin/resources: get memory usage
+- main/pluginmanager: make loading and running plugins concurrent
 
 #### Initial Development Tree:
 - main executable file: ahenk-go/cmd/ahenk-go/
