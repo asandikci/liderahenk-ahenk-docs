@@ -17,7 +17,7 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
     - Basit Syntax
     - Modul mantığı ve proje yapısı
     - Plugin mantığı
-    - Concurrency/goroutine mantığ˙í
+    - Concurrency/goroutine mantığı
   - Linux Daemon 
     - Daemon mantığı (forking)
     - Iki farklı dilde daemon implementationu

@@ -5,6 +5,7 @@ Bu dizinde Ahenk arka yüz geliştiricileri ve Ahenk eklenti geliştiricileri i�
 <!-- TODO Geliştirici Dokümantasyonuna aynı zamanda https://docs.liderahenk.org/ahenk/dev adersinden de ulaşabilirsiniz. -->
 
 ### Index
+- **[Yeni Geliştiriciler İçin](newdev.md)**
 - [Tüm Kaynaklar ve Harici Bağlantılar](resources.md)
 - [Geliştirici Ortamının Kurulması ve Öneriler](environment.md)
 - [Changelog](changelog.md)
