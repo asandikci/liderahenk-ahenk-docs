@@ -1,5 +1,5 @@
 # Yeni Geliştiriciler için Açıklamalar
-Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak isteyen harici *contributor*lar için başlangıç kılavuzu, açıklamalar ve öneriler. Bu dosyasyı, hâlihazırda olan dökümantasyonların sırasıla daha iyi anlaşılması için bir roadmap gibi düşünebilirsiniz.
+Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak isteyen harici *contributor*lar için başlangıç kılavuzu, açıklamalar ve öneriler. Bu dosyasyı, hâlihazırda olan dökümantasyonların sırasıyla daha iyi anlaşılması için bir roadmap gibi düşünebilirsiniz.
 
 ## Gereklilikler
 ### Geliştirme Ortamının kurulması
@@ -23,9 +23,9 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - ...
 
 ## Projenin çalışma mantığının anlaşılması
-- Projenin mantığının anlaşılması için sırasıyla ilk önce [howto.md](howto.md) dosyasına göz gezdirmeniz sonrasında [changelog.md](changwelog.md) dosyasını en alttan en üste doğru okumanız önerilmektedir. (daha kısa versiyonları için [admin](../admin/) dizinine göz gezdirebilirsiniz)
+- Projenin mantığının anlaşılması için sırasıyla ilk önce [howto.md](howto.md) dosyasına göz gezdirmeniz sonrasında [changelog.md](changelog.md) dosyasını en alttan en üste doğru okumanız önerilmektedir. (daha kısa versiyonları için [admin](../admin/) dizinine göz gezdirebilirsiniz)
 - Özetlemek gerekirse ahenk basitçe sistem başladığında daemon olarak çalışan, Lider'den gelen komutları uygulayan ve sonuçlarını geri Lider'e ileten bir client uygulamasıdır. Gerekli komutları yapmak için ilgili pluginleri kullanır. Son kullanıcı [Ahenkdesk](https://github.com/Pardus-LiderAhenk/ahenkdesk) uygulaması ile aynı zamanda Lider ile iletişime de geçebilir ve ilgili bilgileri öğrenebilir. 
-- İlgili dökümantasyonları okuduktan sonra projedeki [cmd/ahenk-go/main.go](https://git.aliberksandikci.com.tr/Liderahenk/ahenk-go/src/branch/main/cmd/ahenk-go/main.go) dizinine gidip kodu incelemeniz *önerilmektedir*
+- İlgili dökümantasyonları okuduktan sonra projedeki [cmd/ahenk-go/main.go](https://git.aliberksandikci.com.tr/Liderahenk/ahenk-go/src/branch/main/cmd/ahenk-go/main.go) koduna gidip sırasıyla pluginleri vb. incelemeniz *önerilmektedir*
 
 ## Geliştirme Sürecinin devamlılığı
 - Geliştirme sürecinin devamlılığını sağlamak için [environment.md](./environment.md) dosyasındaki anchor'ları kullanmanız önerilmektedir. Kod editörünüz içinde NEXT, TODO, FIXME ... kelimelerini aratıp eksik/hatalı kod öbeklerini doldurabilrsirsiniz. Siz de kendi anchorlarınızı eklemekten çekinmeyin.
@@ -33,8 +33,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - Dökümantasyona özen gösteriniz, özellikle hem [admin](../admin/) hem de [dev](../dev) klasöründeki howto.md ve changelog.md dosyalarını olabildiğince sık güncellemeye çalışınız. Anlaşılırlığı arttırmak için harici veya dahili bağlantılar da kullanabilirsiniz.
 - [Kaynakları](./resources.md) olabildiğince sık güncellemeye çalışınız. Gereksiz bağlantıları silip daha yeni veya daha iyi bağlantıları tutunuz. Olabildiğince kısa, öz ama bir o kadar da bilgilendirici kaynakları toplayınız *ki herhangi bir noktada eksiği olan geliştirici/stajyerler hızlıca bilgilere erişebilsin*
 - Kod içinde fonksiyonlardan, methodlardan ve diğer uzun kod bloklarından önce; ne işe yaradığı, nasıl çalıştığı ve neden öyle olduğunu açıklayan anlaşılır yorumlar koyunuz. Aynı zamanda diğer gerek duyduğunuz yerlere kısa yorum satırları eklemekten çekinmeyiniz. Açıklayıcı ve anlaşılabilir yorumlar yazmak ve bir dökümana dönüştürmek için [go yorum rehberini](https://go.dev/doc/comment) takip ediniz.
-- Kodun anlaşılabilirliğini sağlamak için [Go stil rehberini](https://google.github.io/styleguide/go/) takip ediniz.
-<!-- TODO Dev-0.0.1-1 sürümünde yorum ve stil rehberlerine dikkat edilmemiştir, sonraki sürümlerde zamanla daha açıklayıcı ve anlaşılır şekilde devam etmeye ve hâlıhazırdaki yerleri düzeltmeye çalışınız -->
+- Kodun anlaşılabilirliğini sağlamak için [Go stil rehberini](https://google.github.io/styleguide/go/) takip ediniz.<!-- TODO Dev-0.0.1-1 sürümünde yorum ve stil rehberlerine dikkat edilmemiştir, sonraki sürümlerde zamanla daha açıklayıcı ve anlaşılır şekilde devam etmeye ve hâlıhazırdaki yerleri düzeltmeye çalışınız -->
 - Git commitlerini olabildiğince açıklayıcı bir şekilde yazınız, [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) şeklini veya geliştirici ekibin kullandığı şekli kullanabilirsiniz. Her şekilde en önemlisinin commitlerin birbirleri ile uyumlu olmasının olduğunu unutmayınız.
 
 ## Geliştirme Süreci
