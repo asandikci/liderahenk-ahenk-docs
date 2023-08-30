@@ -41,6 +41,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - Git adresindeki Issue'lerden ilerleyiniz.
 - Mattermost (veya kullanılan diğer adres)teki roadmap'ten ilerleyiniz.
 - [Python implementasyonundaki](https://github.com/Pardus-LiderAhenk/ahenk) özelliklerden/pluginlerden devam ediniz.
+- [bakınız](#neler-yarım-bırakıldı)
 
 ### Genel Taslak
 - [x] Linux Daemon
@@ -52,16 +53,21 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - [ ] Dynamic Plugin Manager (with unload, reload feature)
 - [ ] Connection to Lider with XMPP
 - [ ] Connect with Ahenkdesk
-...
+- [ ] ...
 - [ ] plugins/usb
-...
+- [ ] ...
 - [ ] plugins/LDAP
-...
+- [ ] ...
 - [ ] plugins/... (Look more in [python implementation](https://github.com/Pardus-LiderAhenk/ahenk/tree/master/src/plugins))
-...
+- [ ]. ..
 - [ ] a running Docker Ahenk-go container
 - [ ] Testing with different operating systems, distributions
 ...
+
+### Neler Yarım Bırakıldı
+- osinfo'yu gopsutil gibi organize etmek, alt dosyalara ayırmak ve windows/linux varyantlarını ayırmak
+- resources pluginini daha işlevsel hâle getirmek (python implementasyonundaki tüm işlevlere sahip değil)
+- Windows üzerinde çalışan daemon(servis) yapılması, windows için logların, dosyaların ve configlerin ayarlanması
 
 <br><br>
 
