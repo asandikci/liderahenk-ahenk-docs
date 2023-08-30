@@ -90,6 +90,7 @@
 - https://go-team.pages.debian.net/packaging.html
 - https://wiki.debian.org/SimplePackagingTutorial
 - https://people.debian.org/~stapelberg/2015/07/27/dh-make-golang.html
+- https://vincent.bernat.ch/en/blog/2019-pragmatic-debian-packaging#fn-compat
 
 <br>
 
