@@ -74,7 +74,13 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
 - Makefile yapısını anladım ve daha kolay kurulum/build/silme işlemleri için oluşturdum
 - Dökümantasyonları güncelledim
 - Go Plugin yapısını implemente etmeye başladım
-- Resource Usage plugin'ini kodladım
+- Resource Usage plugin'ini kodlamaya başladım
 - Kodu concurrent bir şekilde tekrar düzenledim, goroutine kullanmaya başladım
 
-
+#### Son Hafta (28 Ağustos - 1 Eylül 2023)
+- Resource Usage pluginini bitirdim
+- Go'da crosscompile program yapmayı öğrendim
+- Go Dinamik Plugin yapısını kodladım (TODO)
+- Resource Usage pluginini ve ahenk-go programını Windows ile uyumlu hâle getirdim (henüz daemon/servis olarak çalışmamakta) (TODO)
+- Dökümantasyonları güncelledim (TODO)
+- .deb dosyasını güncelledim, windows ve linux için paketleri yayımladım (TODO)
