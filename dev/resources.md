@@ -142,6 +142,7 @@
 ### Missing Features in Golang
 - https://github.com/golang/go/issues/20461 | unload plugins
 - https://github.com/golang/go/issues/19282 | Windows plugin support
+- https://github.com/golang/go/issues/29202 | Build tags / flags support for linux
 
 <br>
 
