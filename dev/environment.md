@@ -18,7 +18,8 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
   - `REVIEW` » This code block needs a review
   - `LINK` » Link to documentation/forum/information
 #### Go (`golang.go`)
-  - package_linux.go ve package_windows.go kodlarındaki aynı fonksiyonların çakışmaması için gerekli ayarları yapınız. (FIXME)
+  - package_linux.go ve package_windows.go kodlarındaki aynı fonksiyonlar sorun yaratmakta. Örnek için ahenk-go/pkg/osinfo/os_windows.go ve os_linux.go dosyalarını IDE'nizde birlikte açınız (FIXME)
+    - see these [t](https://github.com/microsoft/vscode-go/issues/2672)w[o](https://github.com/golang/go/issues/29202) issues to resolve problem or workaround
 
 ---
 
