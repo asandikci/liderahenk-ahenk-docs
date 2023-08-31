@@ -26,7 +26,7 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
 - `.vscode/settings.json` içinde `go.buildFlags` ayarı linux/windows için çalışırken manuel olarak değiştirilmeli. 
 - `package_linux.go` dosyalarında, `//go:build linux` yerine `//go:build linux && !windows` kullanılmalı (ki go.buildFlags -tags=windows'a ayarlı iken bu paketleri dahil etmesin)
 - **Windows** üzerine bir özellik geliştirirken `.vscode/settings.json` dosyasına ekleyiniz: `"go.buildFlags": ["-tags=windows"],`
-- - **Linux** üzerine bir özellik geliştirirken `.vscode/settings.json` dosyasına ekleyiniz: `"go.buildFlags": ["-tags=linux"],`
+- **Linux** üzerine bir özellik geliştirirken `.vscode/settings.json` dosyasına ekleyiniz: `"go.buildFlags": ["-tags=linux"],`
 - Sorunlar
   - Her seferinde manuel olarak ayarın değiştirilmesi lazım
   - herhangi bir sistem için çalışırken diğer sistemin kodu içinde diagnotics çalışmamakta. Örneğin `tags=windows` etkinken eğer package_linux.go dosyasına gidersek go eklentisinin çoğu yapılandırma özellikleri çalışmamakta ve uyarı vermekte
