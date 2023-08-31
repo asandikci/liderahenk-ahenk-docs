@@ -18,8 +18,18 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
   - `REVIEW` » This code block needs a review
   - `LINK` » Link to documentation/forum/information
 #### Go (`golang.go`)
-  - package_linux.go ve package_windows.go kodlarındaki aynı fonksiyonlar sorun yaratmakta. Örnek için ahenk-go/pkg/osinfo/os_windows.go ve os_linux.go dosyalarını IDE'nizde birlikte açınız (FIXME)
-    - see these [t](https://github.com/microsoft/vscode-go/issues/2672)w[o](https://github.com/golang/go/issues/29202) issues to resolve problem or workaround
+##### FIXME build flag issues
+- package_linux.go ve package_windows.go kodlarındaki aynı fonksiyonlar sorun yaratmakta. Örnek için ahenk-go/pkg/osinfo/os_windows.go ve os_linux.go dosyalarını IDE'nizde birlikte açınız
+- see these [t](https://github.com/microsoft/vscode-go/issues/2672)w[o](https://github.com/golang/go/issues/29202) issues or [workaround](#workaround) to resolve problem
+
+###### Workaround
+- `.vscode/settings.json` içinde `go.buildFlags` ayarı linux/windows için çalışırken manuel olarak değiştirilmeli. 
+- `package_linux.go` dosyalarında, `//go:build linux` yerine `//go:build linux && !windows` kullanılmalı (ki go.buildFlags -tags=windows'a ayarlı iken bu paketleri dahil etmesin)
+- **Windows** üzerine bir özellik geliştirirken `.vscode/settings.json` dosyasına ekleyiniz: `"go.buildFlags": ["-tags=windows"],`
+- - **Linux** üzerine bir özellik geliştirirken `.vscode/settings.json` dosyasına ekleyiniz: `"go.buildFlags": ["-tags=linux"],`
+- Sorunlar
+  - Her seferinde manuel olarak ayarın değiştirilmesi lazım
+  - herhangi bir sistem için çalışırken diğer sistemin kodu içinde diagnotics çalışmamakta. Örneğin `tags=windows` etkinken eğer package_linux.go dosyasına gidersek go eklentisinin çoğu yapılandırma özellikleri çalışmamakta ve uyarı vermekte
 
 ---
 
