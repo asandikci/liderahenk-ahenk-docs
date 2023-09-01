@@ -41,7 +41,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - Git adresindeki Issue'lerden ilerleyiniz.
 - Mattermost (veya kullanılan diğer adres)teki roadmap'ten ilerleyiniz.
 - [Python implementasyonundaki](https://github.com/Pardus-LiderAhenk/ahenk) özelliklerden/pluginlerden devam ediniz.
-- [bakınız](#neler-yarım-bırakıldı)
+- [bakınız](#neler-yarım-bırakıldı-veya-planlanmıştı-ama-başlanmadı)
 
 ### Genel Taslak
 - [x] Linux Daemon
@@ -64,10 +64,17 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - [ ] Testing with different operating systems, distributions
 ...
 
-### Neler Yarım Bırakıldı
+### Neler Yarım Bırakıldı (Veya planlanmıştı ama başlanmadı)
 - osinfo'yu gopsutil gibi organize etmek, alt dosyalara ayırmak ve windows/linux varyantlarını ayırmak
+- plugin implementasyonunun iyileştirilmesi, https://github.com/eh-steve/goloader'in daha detaylı incelenmesi ve https://github.com/pkujhd/goloader ile farkının anlaşılması
+  - jit'in anlaşılması, go üzerinde ne gibi bir patch uygulandığının belirlenmesi
+  - olası hataların ve bugların yakalanması, güvenlik açısından bu plugin implementasyonunu değerlendirme
+  - her seferinde build ile kodun yavaşlamaması için precompiled dosyaların da çalıştırılabilmesi özelliğinin eklenmesi, [bakınız](https://github.com/eh-steve/goloader/issues/18)
 - resources pluginini daha işlevsel hâle getirmek (python implementasyonundaki tüm işlevlere sahip değil)
 - Windows üzerinde çalışan daemon(servis) yapılması, windows için logların, dosyaların ve configlerin ayarlanması
+- Windows yüklemesi için .exe kurulum dosyası oluşturulması
+- Lider ile iletişim / XMPP
+- daha fazlası için [buraya](./changelog.md#next) bakınız
 
 <br><br>
 
