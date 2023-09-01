@@ -30,6 +30,7 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
 - Sorunlar
   - Her seferinde manuel olarak ayarın değiştirilmesi lazım
   - herhangi bir sistem için çalışırken diğer sistemin kodu içinde diagnotics çalışmamakta. Örneğin `tags=windows` etkinken eğer package_linux.go dosyasına gidersek go eklentisinin çoğu yapılandırma özellikleri çalışmamakta ve uyarı vermekte
+  - Neden bilmiyorum ama bazen bu geçici çözüm işe yaramamakta
 
 ---
 
