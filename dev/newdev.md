@@ -50,7 +50,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - [x] Docker Dev Environment 
 - [x] Plugin Manager
 - [x] plugins/resources
-- [ ] Dynamic Plugin Manager (with unload, reload feature)
+- [x] Dynamic Plugin Manager (with unload, reload features)
 - [ ] Connection to Lider with XMPP
 - [ ] Connect with Ahenkdesk
 - [ ] ...
@@ -59,7 +59,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - [ ] plugins/LDAP
 - [ ] ...
 - [ ] plugins/... (Look more in [python implementation](https://github.com/Pardus-LiderAhenk/ahenk/tree/master/src/plugins))
-- [ ]. ..
+- [ ] ...
 - [ ] a running Docker Ahenk-go container
 - [ ] Testing with different operating systems, distributions
 ...
@@ -74,6 +74,10 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - Windows üzerinde çalışan daemon(servis) yapılması, windows için logların, dosyaların ve configlerin ayarlanması
 - Windows yüklemesi için .exe kurulum dosyası oluşturulması
 - Lider ile iletişim / XMPP
+- daha düzenli loglar, debug logları
+- cli flag, argument management (cobra) (gerekli mi?)
+- daha iyi versiyon yönetimi, deb/exe ve version dosyası için senkronizasyon
+- otomatik versiyon güncellemesi
 - daha fazlası için [buraya](./changelog.md#next) bakınız
 
 <br><br>
