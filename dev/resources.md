@@ -18,6 +18,7 @@
   - [External Git Repos](#external-git-repos)
   - [Useful Go Libraries](#useful-go-labraries)
   - [Plugin Logic](#plugin-logic)
+    - [Dynamic Plugin Logic](#dynamic-plugin-logic)
   - [Missing Features](#missing-features-in-golang)
 - [Agent Market Search](#agent-market-search)
 
@@ -127,19 +128,24 @@
 - [asandikci/go-organization](https://git.aliberksandikci.com.tr/asandikci/go-organization) | Project Structure Resources
 - [asandikci/go-exercise](https://git.aliberksandikci.com.tr/asandikci/go-exercise) | Go Exercise Resources and Solutions
 - [asandikci/go-crosscompile](https://git.aliberksandikci.com.tr/asandikci/go-crosscompile) | Information and tests about crosscompiling in go 
+- [asandikci/go-loader-test](https://git.aliberksandikci.com.tr/asandikci/go-loader-test) | Information and tests about [dynamic plugin logic](#dynamic-plugin-logic)(goloader)
 ### Useful GO Labraries
 - https://github.com/kirsle/configdir | Get User Config and Cache Directories
 - https://github.com/shibukawa/configdir | Get User Config and Cache Directories
 - https://github.com/sevlyar/go-daemon | Go Daemon
 - **Look for more:** [github/list/go](https://github.com/stars/asandikci/lists/go-language)
 
-### Plugin logic
-- https://pkg.go.dev/plugin
+### Plugin Logic
+- https://pkg.go.dev/plugin | Official Plugin logic
 - https://github.com/vladimirvivien/go-plugin-example
 - https://eli.thegreenplace.net/2021/plugins-in-go/
 - https://www.sobyte.net/post/2021-12/golang-plugin/
-- https://eli.thegreenplace.net/2023/rpc-based-plugins-in-go/
-- https://appliedgo.net/plugins/
+- https://eli.thegreenplace.net/2023/rpc-based-plugins-in-go/ | other
+- https://appliedgo.net/plugins/ | other
+
+#### Dynamic Plugin Logic
+ - [asandikci/go-loader-test](https://git.aliberksandikci.com.tr/asandikci/go-loader-test) | Information and tests about dynamic plugin logic(goloader)
+ - https://github.com/eh-steve/goloader 
 
 ### Missing Features in Golang
 - https://github.com/golang/go/issues/20461 | unload plugins

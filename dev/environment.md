@@ -10,14 +10,16 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
 #### Comment Anchors (`exodiusstudios.comment-anchors`)
   - `TODO` » Future Tasks
   - `NEXT` » High Priority Tasks
-    - settings.json dosyasına ekleyiniz (default, #12449f, file)
   - `FILLME` » Reusable code block
-    - settings.json dosyasına ekleyiniz (default, #A8C993, file)
+    - use epic anchors for improve reachability
   - `FIXME` » Bug or error
   - `NOTE` » Extra note
   - `REVIEW` » This code block needs a review
-  - `LINK` » Link to documentation/forum/information
+  - `LINK` » Link to code block with line number/id
+    - see https://github.com/StarlaneStudios/vscode-comment-anchors#link-anchors
+  - see https://github.com/StarlaneStudios/vscode-comment-anchors for more information
 #### Go (`golang.go`)
+  - 
 ##### FIXME build flag issues
 - package_linux.go ve package_windows.go kodlarındaki aynı fonksiyonlar sorun yaratmakta. Örnek için ahenk-go/pkg/osinfo/os_windows.go ve os_linux.go dosyalarını IDE'nizde birlikte açınız
 - see these [t](https://github.com/microsoft/vscode-go/issues/2672)w[o](https://github.com/golang/go/issues/29202) issues or [workaround](#workaround) to resolve problem
@@ -30,8 +32,11 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
 - Sorunlar
   - Her seferinde manuel olarak ayarın değiştirilmesi lazım
   - herhangi bir sistem için çalışırken diğer sistemin kodu içinde diagnotics çalışmamakta. Örneğin `tags=windows` etkinken eğer package_linux.go dosyasına gidersek go eklentisinin çoğu yapılandırma özellikleri çalışmamakta ve uyarı vermekte
-  - Neden bilmiyorum ama bazen bu geçici çözüm işe yaramamakta
+  - Neden bilmiyorum ama bazen bu geçici çözüm işe yaramamakta ¿
 
+### Otomatik Eklenti Ayarları
+- Eklentileri Manuel olarak yüklemeniz gerekmektedir. Konfigrasyonlarını ise VSCode/Codium üzerinden kendiniz yapabilirsiniz veya `.vscode/settings.json` dosyasını direkt kullanabilirsiniz.
+  - Not: Eğer workspace içerisinde ahenk-go haricinde başka dosya veya klasörler varsa bazı ayarlar geçersiz olabilir, `.vscode/settings.json` içerisindeki tüm ayarları kopyalayıp vscode ayarlarındaki setting.json dosyasına yapıştırabilirsiniz. (tabii ki ilk ve son süslü parantez hariç)
 ---
 
 ## Önerilen Makine Düzeni
@@ -49,6 +54,7 @@ Bu dosyada geliştirme sürecinin sürekliliği ve bütünlüğü için gelişti
   - Windows 10, 11 (Sanal/Fiziksel)
 
 ## Creating Docker Development Environment
+> For testing and building .deb package
 1. Install and Create docker environment, [Quick Start](https://sulincix.github.io/sayfalar/html/docker-kullanimi.html)
 2. Pull docker image
 ```sh

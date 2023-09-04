@@ -79,9 +79,11 @@ Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kull
 - Kodu concurrent bir şekilde tekrar düzenledim, goroutine kullanmaya başladım
 
 #### Son Hafta (28 Ağustos - 3 Eylül 2023)
+- Go'da crosscompile program yapmayı öğrendim ve projeye uyguladım
+- Go Dinamik Plugin yapısını kodladım (goloader)
 - Resource Usage pluginini bitirdim
-- Go'da crosscompile program yapmayı öğrendim
-- Go Dinamik Plugin yapısını kodladım
-- Resource Usage pluginini ve ahenk-go programını Windows ile uyumlu hâle getirdim (daemon/servis olarak çalışmamakta)
+  - Hardware cihazlarını algılamak için hardware paketini kodladım
+- Resource Usage pluginini ve ahenk-go programını Windows ile uyumlu hâle getirdim
+  - program servis olarak çalışmamakta!
 - Dökümantasyonları güncelledim
 - .deb dosyasını güncelledim, windows ve linux için paketleri yayımladım
