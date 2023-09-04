@@ -1,14 +1,15 @@
 # Yeni Geliştiriciler için Açıklamalar
-Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak isteyen harici *contributor*lar için başlangıç kılavuzu, açıklamalar ve öneriler. Bu dosyasyı, hâlihazırda olan dökümantasyonların sırasıyla daha iyi anlaşılması için bir roadmap gibi düşünebilirsiniz.
+Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak isteyen harici *contributor*lar için başlangıç kılavuzu, açıklamalar ve öneriler. Bu dosyayı, hâlihazırda olan dökümantasyonların sırasıyla daha iyi anlaşılması için oluşturulmuş bir roadmap gibi düşünebilirsiniz.
 
 ## Gereklilikler
 ### Geliştirme Ortamının kurulması
-- Geliştirme ortamı için go dilini paket yöneticinizden veya resmi sitesinden kurunuz (>=1.19) 
+- Geliştirme ortamı için go dilini paket yöneticinizden veya resmi sitesinden kurunuz (>=1.21.0) 
 - [environment.md](environment.md) dosyasındaki adımları izleyiniz. VSCode/Codium + Eklentilerini kullanmanız kolaylık ve geliştirme sürecinin bütünlüğünü sağlayacağı için *önerilmektedir*
 - Eğer .deb paketi buildleyecek iseniz veya harici testler gerçekleştirmek istiyorsanız [docker geliştirici ortamı kurmanız](environment.md#creating-docker-development-environment) *önerilmektedir* ~~*yeni başlayan stajyerler bunu daha sonra halledebilirler*~~
+- Ayrıca kullanılan dinamik plugin yapısı nedeniyle kodun düzgün çalışması ve buildlenmesi için [şu](https://github.com/eh-steve/goloader#build) adımları sırasıyla yapınız. (**önemli**)
 
 ### Golang
-- Ahenk-go Go dili ile yazılmıştır. Dolayısı ile go dilinin synatxini, modül ve proje yapısını, concurrent programlamayı ve plugin mantığını bilmeniz önerilmektedir.
+- Ahenk-go, Go dili ile yazılmıştır. Dolayısı ile go dilinin synatxini, modül ve proje yapısını, concurrent programlamayı ve plugin mantığını bilmeniz önerilmektedir.
 - Kaynaklar için [resources.md](resources.md#go) dosyasındaki ilgili linkleri veya [asandikci/go-learning](https://git.aliberksandikci.com.tr/asandikci/go-learning) deposunu kullanabilirsiniz
 
 ### Diğer
@@ -24,7 +25,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 
 ## Projenin çalışma mantığının anlaşılması
 - Projenin mantığının anlaşılması için sırasıyla ilk önce [howto.md](howto.md) dosyasına göz gezdirmeniz sonrasında [changelog.md](changelog.md) dosyasını en alttan en üste doğru okumanız önerilmektedir. (daha kısa versiyonları için [admin](../admin/) dizinine göz gezdirebilirsiniz)
-- Özetlemek gerekirse ahenk basitçe sistem başladığında daemon olarak çalışan, Lider'den gelen komutları uygulayan ve sonuçlarını geri Lider'e ileten bir client uygulamasıdır. Gerekli komutları yapmak için ilgili pluginleri kullanır. Son kullanıcı [Ahenkdesk](https://github.com/Pardus-LiderAhenk/ahenkdesk) uygulaması ile aynı zamanda Lider ile iletişime de geçebilir ve ilgili bilgileri öğrenebilir. 
+- Özetlemek gerekirse ahenk basitçe sistem başladığında daemon olarak çalışan, Lider'den gelen komutları uygulayan ve sonuçlarını geri Lider'e ileten bir istemci uygulamasıdır. Gerekli komutları yapmak için ilgili pluginleri kullanır. Son kullanıcı [Ahenkdesk](https://github.com/Pardus-LiderAhenk/ahenkdesk) uygulaması ile aynı zamanda Lider ile iletişime de geçebilir ve ilgili bilgileri öğrenebilir. 
 - İlgili dökümantasyonları okuduktan sonra projedeki [cmd/ahenk-go/main.go](https://git.aliberksandikci.com.tr/Liderahenk/ahenk-go/src/branch/main/cmd/ahenk-go/main.go) koduna gidip sırasıyla pluginleri vb. incelemeniz *önerilmektedir*
 
 ## Geliştirme Sürecinin devamlılığı
@@ -36,6 +37,25 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - Kodun anlaşılabilirliğini sağlamak için [Go stil rehberini](https://google.github.io/styleguide/go/) takip ediniz.<!-- TODO Dev-0.0.1-1 sürümünde yorum ve stil rehberlerine dikkat edilmemiştir, sonraki sürümlerde zamanla daha açıklayıcı ve anlaşılır şekilde devam etmeye ve hâlıhazırdaki yerleri düzeltmeye çalışınız -->
 - Git commitlerini olabildiğince açıklayıcı bir şekilde yazınız, [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) şeklini veya geliştirici ekibin kullandığı şekli kullanabilirsiniz. Her şekilde en önemlisinin commitlerin birbirleri ile uyumlu olmasının olduğunu unutmayınız.
 
+### Proje Yapısı
+> Go dili hızla gelişen bir dil olduğu için bazı yapılar değişebilmektedir, dolayısı ile bu başlık altında yazılanlar ileride geçerli olmayabilir. Ek bilgi için resmi **olmayan** [şu dokümantasyona](https://github.com/golang-standards/project-layout) bakabilirsiniz
+
+- `.vscode/` içerisinde VSCode/Codium için yer alan ilgili ayarlar bulunmaktadır
+- `cmd/` dizininde çalıştırılacak asıl komutlar yer almaktadır.
+  - örneğin ahenk-go programı `cmd/ahenk-go/` dizininden başlar (daha doğrusu bu dizin compile edilip /usr/bin/ahenk-go olarak taşınır)
+  - kendi başına program olarak çalışan birbirlerinden bağımsız kodları buraya ekleyiniz
+    - örneğin ileride geliştirilecek olan ahenk-register
+  - aynı zamanda sadece yine `cmd/` dizini içindeki ana programlar tarafından kullanılan ana paketler de buraya yerleştirilmiştir.
+    - örneğin `plugin` paketi. Tek başına bir işlevi yok ama projedeki diğer plugin veya paketler tarafından kullanılmamakta, sadece `cmd/ahenk-go/` dizininde bulunan ana programdan çağırılmakta
+- `debian/` içerisinde .deb paketi oluşturmak için gerekli olan bilgiler bulunmaktadır. Ayrıca paket oluşturma *tool*ları tarafından oluşturulan otomatik dosyalar için `debian` *branch*ına göz gezdirebilirziniz. NEXT
+- `pkg/` dizininde projenin herhangi bir yerinde kullanılabilecek paketler yer alır
+  - bu paketlerin kodun diğer kısımlarından bağımsız olması gerekir (kendileri arasında bağlantılı olabilirler ¿)
+  - pluginler gibi dinamik bir şekilde load/unload edilmezler. Kod dosyaları başında import edilirler (ve compile edilirken direkt kullanılırlar)
+- `plugins/` içinde plugin paketi tarafından load/unload edilebilecek plugin paketleri yer alır
+  - pluginler hakkında daha fazla bilgi için [newplugin.md](./newplugin.md)
+### Yeni Plugin Geliştirme
+- Geliştirme sürecini basit ve anlaşılır tutmak ayrıca dinamik bir yapı oluşturmak için ahenk-go plugin yapısını kullanır. Plugin yapısı ile daha fazla bilgi edinmek için [newplugin.md](./newplugin.md) dosyasını inceleyiniz.
+
 ## Geliştirme Süreci
 - Kod içlerindeki anchor'lardan ilerleyiniz. (NEXT, TODO, FIXME, REVIEW, FILLME)
 - Git adresindeki Issue'lerden ilerleyiniz.
@@ -46,7 +66,8 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 ### Genel Taslak
 - [x] Linux Daemon
 - [ ] Windows Service
-- [x] Deb Packaging
+- [x] Debian,  .deb packaging
+- [ ] Windows, .msi packaging
 - [x] Docker Dev Environment 
 - [x] Plugin Manager
 - [x] plugins/resources
