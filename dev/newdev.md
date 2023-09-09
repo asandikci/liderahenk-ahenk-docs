@@ -1,6 +1,8 @@
 # Yeni Geliştiriciler için Açıklamalar
 Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak isteyen harici *contributor*lar için başlangıç kılavuzu, açıklamalar ve öneriler. Bu dosyayı, hâlihazırda olan dökümantasyonların sırasıyla daha iyi anlaşılması için oluşturulmuş bir roadmap gibi düşünebilirsiniz.
 
+SON UPDATE: howto.md ve changelog.md dosyalarını güncellemeye ve dev-notes/asandikci.md dosyasındaki son hafta için yazdıklarımı (commit=316ef3713e9119b0869baea40406fcf5482faf10) yapmaya vaktim yetmedi, bu dosyadan ana mantığı anlamaya çalışın ama goloader kullandıktan beri güncellemediğim için plugin mantığı çok eksik kalacak... goloader-changes branchına ve son commit'e bakınız ve anlamaya çalışınız!
+
 ## Gereklilikler
 ### Geliştirme Ortamının kurulması
 - Geliştirme ortamı için go dilini paket yöneticinizden veya resmi sitesinden kurunuz (>=1.21.0) 
@@ -99,6 +101,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - cli flag, argument management (cobra) (gerekli mi?)
 - daha iyi versiyon yönetimi, deb/exe ve version dosyası için senkronizasyon
 - otomatik versiyon güncellemesi
+- go kodları için otomatik testler (package_test.go ve makefile içinde)
 - daha fazlası için [buraya](./changelog.md#next) bakınız
 
 <br><br>
