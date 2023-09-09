@@ -76,7 +76,7 @@ Go dili ve ortamın kurulması haricinde bunlar hakkında bilgi sahibi olmanız 
 - [x] Docker Dev Environment 
 - [x] Plugin Manager
 - [x] plugins/resources
-- [x] Dynamic Plugin Manager (with unload, reload features)
+- [ ] Dynamic Plugin Manager (with unload, reload features)
 - [ ] Connection to Lider with XMPP
 - [ ] Connect with Ahenkdesk
 - [ ] ...
