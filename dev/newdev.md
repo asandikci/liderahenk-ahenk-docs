@@ -3,6 +3,9 @@ Bu projede devam edecek olan geliştiriciler, stajyerler veya katkı sağlamak i
 
 SON UPDATE: howto.md ve changelog.md dosyalarını güncellemeye ve dev-notes/asandikci.md dosyasındaki son hafta için yazdıklarımı (commit=316ef3713e9119b0869baea40406fcf5482faf10) yapmaya vaktim yetmedi, bu dosyadan ana mantığı anlamaya çalışın ama goloader kullandıktan beri güncellemediğim için plugin mantığı çok eksik kalacak... goloader-changes branchına ve son commit'e bakınız ve anlamaya çalışınız!
 
+ayrıca en son mattermostta kalanlara bakınız:
+![image](./image.png)
+
 ## Gereklilikler
 ### Geliştirme Ortamının kurulması
 - Geliştirme ortamı için go dilini paket yöneticinizden veya resmi sitesinden kurunuz (>=1.21.0) 
