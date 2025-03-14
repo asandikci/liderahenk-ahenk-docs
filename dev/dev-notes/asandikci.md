@@ -1,7 +1,7 @@
 # Kişisel Notlarım - Aliberk Sandıkçı
 > Go dilini öğrenme ve ahenk-go geliştirme sürecine dair kişisel notlarım, düşüncelerim ve yaptıklarım ile ilgili güncellemeler
 
-> iletişim: https://asandikci.com/link
+> iletişim: https://asandikci.com/links
 
 ## Önemli NOT
 Bu dosya içerisinde yazılan tüm yazılar şahsın kendisini (Aliberk Sandıkçı) ilgilendirmekte olup TÜBİTAK, Pardus veya Liderahenk Kurum/Kuruluş veya ekiplerini ilgilendirmemektedir. Yazılanlardan sadece kişinin kendisi sorumludur!
@@ -9,7 +9,12 @@ Bu dosya içerisinde yazılan tüm yazılar şahsın kendisini (Aliberk Sandık�
 ---
 
 
-## Genel Deneyimim
+### 2025 Yılı Güncelleme
+- go dilini, linux daemon yapısını ve **windows makine kullanmamama rağmen** windows'ta go'yu crosscompile olacak şekilde (özellikle pluginleri) çalıştırmaya uğraşmam sebebi ile projeyi elle tutulur bir hâle getiremediğimi itiraf ediyorum. Ancak bunda windows kısmında vakit kaybetmem ve go kısmında destek almamış olmamın etkisinin de olduğunu söylemek istiyorum. Ayrıca liderahenk ekibinden ne bir geri dönüş aldıım, ne de yaptıklarımı onlara gösterme imkanı buldum. En son attığım mailde -2024 yılında olması lazım- projeyi sunmak istediğimi söylemiştim ancak müsait olmadıklarını söylemişlerdi. Benim de yoğun zamanlarımdı zaten, o yüzden fazla üstelemedim. Az önce linkedin hesabımı Tuncay Bey'in görüntülediğini görünce aklıma bu projenin olduğu https://git.aliberksandikci.com.tr/Liderahenk git linkini kapattığım (sunucumu küçülttüğüm için kaynaklar yetersiz geliyordu) geldi. Ben de bu yüzden github üzerine taşıma kararı aldım. Liderahenk projesinin şu anki durumunu bilmiyorum, son zamanlarda takip edebildiğim de söylenemez. Bu proje ekibin işine yarar mı bilmiyorum (pek sanmıyorum) ancak ne olur ne olmaz en azından erişilebilir olmasını istedim. Sonu _muallakta_ kalmış olsa da ortalamanın üstünde bir staj süreci geçirdim, yine de teşekkür ediyorum. Kolaylıklar dilerim.
+
+
+
+## Genel Deneyimim (2023)
 Yazılım geliştirme konusunda uzman olmadığımdan, go dilini daha önce kullanmadığımdan, docker ile daha önce uğraşmadığımdan ve daha önce deb paketi paketlemediğimden dolayı bu staj benim için daha çok öğrenme ve deneyim edinme üzerine oldu. Liderahenk ve Pardus ekibine soru sorma ve onların deneyimlerinden faydalanma imkanı buldum. 
 
 - Neler Öğrendim/Geliştirdim:
